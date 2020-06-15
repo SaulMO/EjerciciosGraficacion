@@ -1,0 +1,39 @@
+#main{
+    -fx-background-color:  #2A2E37;
+    -fx-border-color: transparent;
+}
+.button{
+    -fx-text-fill: #B2B2B2;
+    -fx-font-family: "MV Boli";
+    -fx-background-color: #2A2E37;
+    -fx-border-color: #FFFF8D;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-font-size: 12pt;
+}
+.button:hover, .button:focused{
+    -fx-border-color: #FFFF8D;
+    -fx-background-color: #FFFF8D;
+    -fx-text-fill: #2A2E37;
+}
+.text-field{
+    -fx-text-fill: black;
+    -fx-font-family: "MV Boli";
+    -fx-font-size : 10pt;
+    -fx-focus-color: #FFFF8D;
+}
+.combo-box
+{
+    -fx-font-size: 10pt;
+    -fx-font-family: "MV Boli";
+    -fx-text-fill: #B2B2B2;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #FFFF8D;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+.combo-box .list-cell:hover{
+    -fx-border-color: #FFFF8D;
+    -fx-background-color: #FFFF8D;
+    -fx-text-fill: black;
+}

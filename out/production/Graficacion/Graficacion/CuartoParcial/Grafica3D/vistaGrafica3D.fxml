@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Graficacion.CuartoParcial.Grafica3D.ControladorGrafica3D">
+
+    <!--Comentario-->
+    <Label text="Graficas 3d">
+      <font>
+         <Font name="Comic Sans MS" size="25.0" />
+      </font></Label>
+    <HBox alignment="CENTER" spacing="0">
+        <TextField fx:id="txtCx" prefWidth="50.0" promptText="cx" />
+        <Label text="x^" />
+        <TextField fx:id="txtPx" prefWidth="50.0" promptText="px" />
+        <Label text="+" />
+        <TextField fx:id="txtCy" prefWidth="50.0" promptText="cy" />
+        <Label text="y^" />
+        <TextField fx:id="txtPy" prefWidth="50.0" promptText="py" />
+        <Label text="+" />
+        <TextField fx:id="txtCz" prefWidth="50.0" promptText="cz" />
+        <Label text="z^" />
+        <TextField fx:id="txtPz" prefWidth="50.0" promptText="pz" />
+        <Label text="=" />
+        <TextField fx:id="txtCte" prefWidth="50.0" promptText="cte" />
+        <!---->
+    </HBox>
+    <Button fx:id="btnEmpezar" text="Graficar" />
+    <Canvas fx:id="lienzo" height="500" width="500" />
+
+</VBox>
